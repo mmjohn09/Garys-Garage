@@ -1,0 +1,11 @@
+/Users/maggie/workspace/csharp/exercises/garys-garage/obj/Debug/netcoreapp3.0/garys-garage.csprojAssemblyReference.cache
+/Users/maggie/workspace/csharp/exercises/garys-garage/obj/Debug/netcoreapp3.0/garys-garage.AssemblyInfoInputs.cache
+/Users/maggie/workspace/csharp/exercises/garys-garage/obj/Debug/netcoreapp3.0/garys-garage.AssemblyInfo.cs
+/Users/maggie/workspace/csharp/exercises/garys-garage/bin/Debug/netcoreapp3.0/garys-garage
+/Users/maggie/workspace/csharp/exercises/garys-garage/bin/Debug/netcoreapp3.0/garys-garage.deps.json
+/Users/maggie/workspace/csharp/exercises/garys-garage/bin/Debug/netcoreapp3.0/garys-garage.runtimeconfig.json
+/Users/maggie/workspace/csharp/exercises/garys-garage/bin/Debug/netcoreapp3.0/garys-garage.runtimeconfig.dev.json
+/Users/maggie/workspace/csharp/exercises/garys-garage/bin/Debug/netcoreapp3.0/garys-garage.dll
+/Users/maggie/workspace/csharp/exercises/garys-garage/bin/Debug/netcoreapp3.0/garys-garage.pdb
+/Users/maggie/workspace/csharp/exercises/garys-garage/obj/Debug/netcoreapp3.0/garys-garage.dll
+/Users/maggie/workspace/csharp/exercises/garys-garage/obj/Debug/netcoreapp3.0/garys-garage.pdb
