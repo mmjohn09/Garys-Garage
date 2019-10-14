@@ -9,12 +9,15 @@ namespace garys_garage
         // public void ChargeBattery() { ... }
         public override void Drive()
         {
-            Console.WriteLine($"The {MainColor} Zero goes Braaaaaaaappppp!");
+            Console.WriteLine($"The {MainColor} Zero goes braaaaaaaappppp!");
         }
-        public void Vehicle(string color, string occupancy)
+        public override void Turn(string direction)
         {
-            MainColor = color;
-            MaximumOccupancy = occupancy;
+            Console.WriteLine($"The {MainColor} Zero carefully turns {direction}.");
+        }
+        public override void Stop()
+        {
+            Console.WriteLine($"The {MainColor} Zero slowly comes to a halt.");
         }
     }
 }

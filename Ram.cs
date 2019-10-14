@@ -8,7 +8,11 @@ namespace garys_garage
         // public void RefuelTank() { ... }
         public override void Drive()
         {
-            Console.WriteLine($"The {MainColor} Ram goes ChugChugChugChug");
+            Console.WriteLine($"The {MainColor} Ram goes rummmmmbbblleeeee.");
+        }
+        public override void Stop()
+        {
+            Console.WriteLine($"The {MainColor} Ram screeches before stopping.");
         }
     }
 }
