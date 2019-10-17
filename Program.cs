@@ -1,4 +1,7 @@
-﻿namespace garys_garage
+﻿using System;
+using System.Collections.Generic;
+
+namespace garys_garage
 {
     class Program
     {
@@ -32,6 +35,19 @@
             proMaster.Drive();
             proMaster.Turn("right");
             proMaster.Stop();
+
+            List<IElectric> electricVehicles = new List<IElectric>()
+            { modelS, fxs };
+
+            List<IGasoline> gasVehicles = new List<IGasoline>()
+            { proMaster, mx410 };
+
+            GasStation speedway = new GasStation(16);
+            ElectricStation supercharge = new ElectricStation(1);
+
+            speedway.Refuel(gasVehicles);
+            supercharge.Refuel(electricVehicles);
+            Console.WriteLine();
         }
     }
 }

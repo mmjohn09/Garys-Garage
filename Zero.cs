@@ -2,7 +2,7 @@ using System;
 
 namespace garys_garage
 {
-    public class Zero : Vehicle
+    public class Zero : Vehicle, IElectric
     {
         public double BatteryKWh { get; set; }
 
@@ -18,6 +18,11 @@ namespace garys_garage
         public override void Stop()
         {
             Console.WriteLine($"The {MainColor} Zero slowly comes to a halt.");
+        }
+
+        public void RechargeBattery()
+        {
+            Console.WriteLine("The Zero is charging.");
         }
     }
 }
